@@ -1,2 +1,2 @@
 # POS-System
-This is POS System projec
+This is POS System project.
