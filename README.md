@@ -1,62 +1,38 @@
-\documentclass{article}
-\usepackage[utf8]{inputenc}
-\usepackage{geometry}
-\usepackage{hyperref}
-\geometry{a4paper, margin=1in}
+# Point of Sale (POS) System
 
-\title{Point of Sale (POS) System}
-\author{Your Name}
-\date{\today}
-
-\begin{document}
-
-\maketitle
-
-\section*{Overview}
+## Overview
 This project is a Point of Sale (POS) system designed for managing sales transactions in a retail environment. The system consists of a ReactJS-based frontend, a NodeJS-based backend, and MySQL as the database.
 
-\section*{Features}
-\begin{itemize}
-    \item User-friendly and responsive web interface for efficient sales management.
-    \item Real-time updates on product availability and inventory management.
-    \item Secure user authentication to control access to system features.
-    \item Transaction history tracking for reporting and analytics.
-\end{itemize}
+## Features
+- User-friendly and responsive web interface for efficient sales management.
+- Real-time updates on product availability and inventory management.
+- Secure user authentication to control access to system features.
+- Transaction history tracking for reporting and analytics.
 
-\section*{Technologies Used}
-\begin{itemize}
-    \item \textbf{Frontend:} ReactJS - A JavaScript library for building user interfaces.
-    \item \textbf{Backend:} NodeJS - A JavaScript runtime for building server-side applications.
-    \item \textbf{Database:} MySQL - A relational database management system.
-\end{itemize}
+## Technologies Used
+- **Frontend:** ReactJS - A JavaScript library for building user interfaces.
+- **Backend:** NodeJS - A JavaScript runtime for building server-side applications.
+- **Database:** MySQL - A relational database management system.
 
-\section*{Getting Started}
-\subsection*{Prerequisites}
-\begin{itemize}
-    \item NodeJS and npm installed. (\url{https://nodejs.org/})
-    \item MySQL installed. (\url{https://www.mysql.com/})
-\end{itemize}
+## Getting Started
+### Prerequisites
+- NodeJS and npm installed. (https://nodejs.org/)
+- MySQL installed. (https://www.mysql.com/)
 
-\subsection*{Installation}
-\begin{enumerate}
-    \item Clone the repository: \texttt{git clone https://github.com/your-username/POS-System.git}
-    \item Navigate to the project directory: \texttt{cd POS-System}
-    \item Install frontend dependencies: \texttt{cd frontend \&\& npm install}
-    \item Install backend dependencies: \texttt{cd backend \&\& npm install}
-    \item Set up MySQL database and configure the connection in the backend.
-\end{enumerate}
+### Installation
+1. Clone the repository: `git clone https://github.com/your-username/POS-System.git`
+2. Navigate to the project directory: `cd POS-System`
+3. Install frontend dependencies: `cd frontend && npm install`
+4. Install backend dependencies: `cd backend && npm install`
+5. Set up MySQL database and configure the connection in the backend.
 
-\subsection*{Usage}
-\begin{enumerate}
-    \item Start the backend server: \texttt{cd backend \&\& npm start}
-    \item Start the frontend development server: \texttt{cd frontend \&\& npm start}
-    \item Access the application in a web browser: \texttt{http://localhost:3000}
-\end{enumerate}
+### Usage
+1. Start the backend server: `cd backend && npm start`
+2. Start the frontend development server: `cd frontend && npm start`
+3. Access the application in a web browser: `http://localhost:3000`
 
-\section*{Contributing}
-Contributions are welcome! Please follow the \href{CONTRIBUTING.md}{contribution guidelines}.
+## Contributing
+Contributions are welcome! Please follow the contribution guidelines in the CONTRIBUTING.md file.
 
-\section*{License}
-This project is licensed under the MIT License - see the \href{LICENSE.md}{LICENSE.md} file for details.
-
-\end{document}
+## License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
