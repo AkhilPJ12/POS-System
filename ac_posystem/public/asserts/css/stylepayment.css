@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-transform: capitalize;
+  transition: all .2s linear;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25px;
+  min-height: 100vh;
+
+}
+
+.container form{
+  padding:20px;
+  width:700px;
+  background: rgba(10, 94, 4, 0.728);
+  box-shadow: 0 5px 10px rgba(0,0,0,.1);
+}
+
+.container form .row{
+  display: flex;
+  flex-wrap: wrap;
+  gap:15px;
+}
+
+.container form .row .col{
+  flex:1 1 250px;
+}
+
+.container form .row .col .title{
+  font-size: 20px;
+  color:rgb(0, 0, 0);
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+  margin:15px 0;
+}
+
+.container form .row .col .inputBox span{
+  margin-bottom: 10px;
+  display: block;
+}
+
+.container form .row .col .inputBox input{
+  width: 100%;
+  border:1px solid #ccc;
+  padding:10px 15px;
+  font-size: 15px;
+  text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+  border:1px solid #000;
+}
+
+.container form .row .col .flex{
+  display: flex;
+  gap:15px;
+}
+
+.container form .row .col .flex .inputBox{
+  margin-top: 5px;
+}
+
+.container form .row .col .inputBox img{
+  height: 34px;
+  margin-top: 5px;
+  filter: drop-shadow(0 0 1px rgb(0, 0, 0));
+}
+
+.container form .submit-btn{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #161716;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container .submit{
+  width: 100%;
+  padding:12px;
+  font-size: 17px;
+  background: #161716;
+  color:#fff;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.container form .submit-btn:hover{
+  background: #000502;
+}
+/* body{
+  background-image: url('/asserts/images/bgimage.png');
+  height: 100vh; 
+  background-size: cover;
+  background-position: center; 
+}; */
+
+.shopping-cart .block-heading{
+  padding-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.shopping-cart .block-heading p{
+text-align: center;
+max-width: 420px;
+margin: auto;
+opacity:0.7;
+}
+
+.shopping-cart .summary{
+border-top: 2px solid #040d18;
+  background-color: #f7fbff;
+  height: 100%;
+  padding: 30px;
+}
+
+.shopping-cart .summary h3{
+text-align: center;
+font-size: 1.3em;
+font-weight: 600;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.shopping-cart .summary .summary-item:not(:last-of-type){
+padding-bottom: 10px;
+padding-top: 10px;
+border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.shopping-cart .summary .text{
+font-size: 1em;
+font-weight: 600;
+}
+
+.shopping-cart .summary .price{
+font-size: 1em;
+float: right;
+}
+
+.shopping-cart .summary button{
+margin-top: 20px;
+}
+
+/* .a {
+  grid-column: 1 / 2;
+  grid-row: 1;
+}
+.b {
+  grid-column: 2 ;
+  grid-row: 1 / 2;
+} */
+body {
+  margin: 40px;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 40% 60%;
+    
+  }
+
+
+
+  .a {
+    grid-column: 1 / 2;
+    grid-row: 1;
+  }
+  .b {
+    grid-column: 2 ;
+    grid-row: 1 / 2;
+  }
